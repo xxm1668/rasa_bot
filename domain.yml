@@ -1,0 +1,12 @@
+intents:
+  - greet
+  - ask_weather
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+
+  utter_ask_weather:
+    - text: "Sure, I can help you with the weather. Please provide me with the location and date you're interested in."
+actions:
+  - action_hello_world

@@ -1,0 +1,10 @@
+recipe: default.v1
+assistant_id: 20230303-132941-slow-interest
+language: en
+policies:
+  - name: RulePolicy
+    core_fallback_action_name: "action_default_fallback"
+    core_fallback_threshold: 0.3
+    enable_fallback_prediction: true
+    priority: 5
+    randomization_factor: 0.2

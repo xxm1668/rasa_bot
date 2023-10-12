@@ -1,0 +1,18 @@
+version: "3.1"
+
+rules:
+
+- rule: out-of-scope
+  steps:
+  - intent: out_of_scope
+  - action: action_hello_world
+
+- rule: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: ask_weather
+  steps:
+  - intent: ask_weather
+  - action: utter_ask_weather

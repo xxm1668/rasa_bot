@@ -1,0 +1,2 @@
+
+python3 -m rasa run --port 5005 -m models/ --endpoints endpoints.yml --credentials credentials.yml --debug
